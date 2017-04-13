@@ -4,18 +4,18 @@
     background: salmon;
 }
 #head{
-    height: 36px;
+    height: 70px;
     background: saddlebrown;
 }
 #nav{
-    height: 23px;
+    height: 40px;
     background: seagreen;
 }
 #content{
-    width: 150px;
+    height: 300px;
     background: seashell;
 }
 #footer{
-    width: 36px;
+    height: 108px;
     background: red;
 }

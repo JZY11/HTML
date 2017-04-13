@@ -1,0 +1,21 @@
+#box{
+    width: 980px;
+    height: 540px;
+    background: salmon;
+}
+#head{
+    height: 36px;
+    background: saddlebrown;
+}
+#nav{
+    width: 23px;
+    background: seagreen;
+}
+#content{
+    width: 150px;
+    background: seashell;
+}
+#footer{
+    width: 36px;
+    background: red;
+}

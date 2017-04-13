@@ -1,0 +1,65 @@
+#box{
+    width: 800px;
+    height: 800px;
+    background: red;
+}
+#head{
+    width: 800px;
+    height: 100px;
+    background: yellow;
+}
+#head1{
+    width: 800px;
+    height: 100px;
+    background: blue;
+}
+#content{
+    width: 800px;
+    height: 400px;
+    background: gray;
+}
+#footer{
+    width: 800px;
+    height: 200px;
+    background: green;
+}
+#left{
+    width: 600px;
+    height: 400px;
+    background: fuchsia;
+    float: left;
+}
+#right{
+    width: 200px;
+    height: 400px;
+    background: #FF8B82;
+    float: left;
+}
+#top{
+    width: 600px;
+    height: 200px;
+    background: saddlebrown;
+}
+#bootom{
+    width: 600px;
+    height: 200px;
+    background: wheat;
+}
+#top-left{
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: left;
+}
+#top-center{
+    width: 200px;
+    height: 200px;
+    background: rebeccapurple;
+    float: left;
+}
+#top-right{
+    width: 200px;
+    height: 200px;
+    background: darkorange;
+    float: left;
+}

@@ -20,8 +20,8 @@
     var number = document.getElementById("number");
     var addBtn = document.getElementById("addBtn");
     var unit_price = document.getElementById("unit_price").innerHTML;
-    var total_price = document.getElementById("total_price");
-    addBtn.onclick=function () {
+    var total_price = document.getElementById("total_price");// var 获取各个对象
+    addBtn.onclick=function () {//function()函数/方法
         var num=++number.value;
         total_price.innerHTML=(num*unit_price).toFixed(2);
     };

@@ -1,0 +1,32 @@
+#box{
+    width: 933px;
+    height: 147px;
+    background: silver;
+    margin: auto;
+}
+#header{
+    height: 53px;
+    background: seagreen;
+    margin: 10px auto;
+}
+#nav{
+    height: 48px;
+    background: saddlebrown;
+}
+#nav_b{
+    height: 48px;
+    background: darkblue;
+    margin: 5px 0;
+}
+#content_t{
+    height: 40px;
+    background: #f884fe;
+}
+#content{
+    height: 300px;
+    background: deeppink;
+}
+#footer{
+    height: 70px;
+    background: darkgrey;
+}

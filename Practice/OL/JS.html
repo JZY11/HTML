@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="JS.css">
+</head>
+<!--<script src = "JS.js"></script>-->
+<body>
+<div id = box>你好</div>
+<input type="text" value = "你也好" id = 'val'>
+<input type="text" value="haohao">
+<input type="text" value="你好好">
+<input type="text" value="厉害喽">
+<input type="text" value="不错嘛">
+<script>
+    var box = document.getElementById('box');
+    console.log(box.innerHTML = '谢谢');//innerText (获取文本)
+    var cc = document.getElementById('val').value;
+    console .log(cc);
+    var dd =document.getElementsByTagName('input')[3].value;
+    console.log(dd)
+</script>
+</body>
+</html>

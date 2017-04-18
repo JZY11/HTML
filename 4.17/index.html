@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="box">
+    <img src="imgs/1.png"/>
+    <img src="imgs/2.jpg"/>
+    <img src="imgs/3.jpg"/>
+    <img src="imgs/4.jpg"/>
+    <img src="imgs/5.jpg"/>
+    <img src="imgs/6.jpg"/>
+    <img src="imgs/7.jpg"/>
+    <img src="imgs/8.jpg"/>
+    <span id="left"> < </span>
+    <span id="right"> > </span>
+</div>
+<script>
+    var img = document.getElementById('box').getElementsByTagName('img');
+    var left = document.getElementById('left');
+    var right = document.getElementById('right');
+    var i = 0;
+    right.onclick = function () {//  先定义一个点击事件
+        for(var j = 0;j < img.length; j++){
+            img[j].style.display = 'none';//  将全部图片遍历出来并隐藏
+        }
+            i++;
+        if(i > img.length - 1){
+            i = 0;// 将大于最后一张图片的索引强制改为第一张的索引0
+        }
+        img[i].style.display = 'block';//  将图片由索引显示出来
+    };
+    var i = 0;
+    left.onclick = function () {
+        for(var j = 0;j < img.length; j++){
+            img[j].style.display = 'none';
+        }
+            i--;
+        if(i < 0){
+            i = img.length - 1;
+        }
+        img[i].style.display = 'block';
+    }
+
+</script>
+</body>
+</html>

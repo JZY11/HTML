@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    width: 400px;
+    height: 200px;
+    background: #A9A1FA;
+    margin: 40px auto;
+    overflow: hidden;
+}
+#box ul{
+    height: 40px;
+}
+#box ul li{
+    line-height: 40px;
+    float: left;
+    padding: 0 50px;
+    background: #182CF8;
+    color: #F1F6FA;
+    border-right: 1px solid #F1F6FA;
+}
+#content{
+    height: 160px;
+}
+#content p{
+    padding: 20px;
+    width: 360px;
+    height: 120px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="DynamicPicture.css">
+</head>
+<body>
+<div id="box">
+    <ul id="xinwen">
+        <li style="background: red">新闻</li>
+        <li>图片</li>
+        <li>游戏</li>
+    </ul>
+    <div id="content">
+        <p>好点答是断过爱好客户带动爱 阿里京东阿基答个爱迪生很简单感受到拉开的加快速度接口是哈哈是好股份的防不错吧</p>
+        <p>收到货非爬坡哎是否安平街发收款打飞机腐恶安排大家都 黄飞鸿佛费附加安排䦹十分了解发还哦</p>
+        <p>结婚和才爱好啊啊回复啊爱好风呼呼的安徽大会噶看 列哈哈发噶GV啊嘎哈非佛尔还舒服啊噶哎onAUS高大上三大嘎嘎的 爱速度好的</p>
+    </div>
+</div>
+<script>
+    var lis = document.getElementById('xinwen').getElementsByTagName('li');
+    var content = document.getElementById('content').getElementsByTagName('p');
+    for(var i = 0; i < lis.length; i++){
+        lis[i].index = i;
+        lis[i].onclick = function(){
+            for(var j = 0; j < content.length; j++){
+                content[j].style.display = "none";
+                lis[j].style.background = '';// ???
+            }
+            content[this.index].style.display = "block";
+            lis[this.index].style.background = "red";
+        }
+    }
+</script>
+</body>
+</html>

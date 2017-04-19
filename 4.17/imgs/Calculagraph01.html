@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0;list-style: none;}
+        #box{
+            width:200px;
+            height:100px;
+            margin:20px auto;
+            background: seagreen;
+            border: 10px solid #778B1B;
+        }
+        #box p{
+            height:40px;
+            background: center #801D8B;
+            text-align: center;
+            /*margin-top: 20px;*/
+            line-height: 40px;
+            color: #8B8B82;
+        }
+        #box button{
+            margin-left:40px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <p id="con"></p>
+        <button id="btn1">开始</button>
+        <button id="btn2">暂停</button>
+    </div>
+    <script>
+        var arr = ['周润发','刘德华','周星驰','李连杰','甄子丹'];
+        var con = document.getElementById("con");
+        var btn1 = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        //点击开始 名字一个一个循环
+        var i = 0;
+        function myfunction() {
+            con.innerHTML = arr[i];
+            i++;
+            if(i > arr.length - 1){
+                i = 0;//如果到最后一个 i=0
+            }
+        }
+        btn1.onclick = function () {
+            s1 = setInterval(myfunction, 100);//定时器
+        };
+        btn2.onclick = function () {
+            clearInterval(s1);//清除定时器
+        }
+    </script>
+</body>
+</html>

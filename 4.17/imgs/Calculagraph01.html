@@ -52,9 +52,11 @@
         }
         btn1.onclick = function () {
             s1 = setInterval(myfunction, 1000);//定时器
+            btn1.disabled = 'disabled';// 禁止点击
         };
         btn2.onclick = function () {
             clearInterval(s1);//清除定时器
+            btn1.disabled = '';
         }
     </script>
 </body>

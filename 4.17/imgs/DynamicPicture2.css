@@ -5,15 +5,12 @@
 }
 #box{
     width: 600px;
-    /*height: 500px;*/
-    background: salmon;
+    background: #7B6FB0;
     margin: 60px auto;
-    /*overflow: hidden;*/
-    border: 5px solid #FA8072;
+    border: 7px solid #7B6FB0;
 }
 #box ul{
     padding-top: 10px;
-    /*padding-left: 10px;*/
     height: 60px;
 }
 #box ul li{
@@ -22,17 +19,17 @@
     float: left;
     padding: 0 20px;
     font-size: 20px;
-    background-color: #E6FAE1;
+    background-color: #4317FA;
     color: #827BFA;
     border-right: 3px solid;
     text-align: center;
 }
 #content{
     height: auto;
-    border-right: 20px seagreen;
 }
 #content p{
     height: auto;
     padding: 20px;
-    background: rebeccapurple;
+    background: white;
+    display: none;
 }

@@ -6,6 +6,32 @@
     <link rel="stylesheet" href="DynamicPicture2-1.css">
 </head>
 <body>
-
+    <div id="box">
+        <ul id="Tab">
+            <li style="background: white">素菜系</li>
+            <li>面类</li>
+            <li>汤菜</li>
+            <div id="content">
+                <p style="display: block">水果沙拉 韩国泡菜 四川泡菜 手撕包菜 酸辣粉炒米粉 拍黄瓜 蔬菜沙拉 干煸豆角 松仁玉米 干煸四季豆 清炒山药 蚝油生菜香菇 油菜 酸辣白菜 拔丝苹果拔 丝地瓜 拔丝山药</p>
+                <p>炸酱面 凉拌面 牛肉面 刀削面 炒面 凉面 汤面 拉面 焖面 拌面</p>
+                <p>鸡汤 鱼汤 高汤 冬瓜汤 罗宋汤 酸辣汤 豆腐汤 排骨汤 牛肉汤骨头汤</p>
+            </div>
+        </ul>
+    </div>
 </body>
+<script>
+    var Tab = document.getElementById('Tab').getElementsByTagName('li');
+    var content = document.getElementById('content').getElementsByTagName('p');
+    for(var i = 0; i < Tab.length; i++){
+        Tab[i].index = i;
+        Tab[i].onclick = function(){
+            for(var j = 0; j < content.length; j++){
+                content[j].style.display = 'none';
+                Tab[j].style.background = '';
+            }
+            content[this.index].style.display = 'block';
+            Tab[this.index].style.background = 'white';
+        }
+    }
+</script>
 </html>

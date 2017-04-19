@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    height: 400px;
+    background: #B03746;
+    margin: 50px;
+    border: 7px solid #B03746;
+}
+#box ul{
+    padding-top: 20px;
+    height: 60px;
+}
+#box ul li{
+    height: 50px;
+    width: 100px;
+    line-height: 60px;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #4317FA;
+    color: #827BFA;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+#content{
+    height: auto;
+}
+#content p{
+    height: auto;
+    padding: 40px;
+    background: white;
+    display: none;
+}

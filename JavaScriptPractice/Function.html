@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-</head>
 <script>
     function myfunction() {
         alert("您好")
     }
 </script>
+</head>
 <body>
 <input type="button" onclick="myfunction()" value="点击这里">
 <p>通过点击这个按钮，可以调用一个函数。该函数会提示一条信息</p>
 </body>
 </html>
+<!--你可以在页面中的任何位置调用脚本（如果函数嵌入一个外部的 .js 文件，那么甚至可以从其他的页面中调用）。
+函数在页面起始位置定义，即 <head> 部分。-->
+
+<!--假如上面的例子中的 alert("您好") 没有被写入函数，那么当页面被载入时它就会执行。现在，当用户击中按钮时，
+脚本才会执行。我们给按钮添加了 onClick 事件，这样按钮被点击时函数才会执行。-->

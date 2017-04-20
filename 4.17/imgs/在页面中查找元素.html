@@ -6,9 +6,13 @@
 </head>
 <body>
 <input type="text" name="" id="xingZuo" value="请输入您的星座名称">
+<button id="btn">查询</button>
 <script>
     var npt = document.getElementById('xingZuo');
-    alert(npt);
+    var btn = document.getElementById('btn');
+    btn.onclick = function () {
+        alert(npt.value);
+    }
 </script>
 </body>
 </html>

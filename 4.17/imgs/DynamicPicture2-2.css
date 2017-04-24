@@ -9,7 +9,7 @@
     margin: 40px auto;
 }
 #box ul{
-    width: 700px;
+    width: 500px;
     height: auto;
 }
 #box ul li{
@@ -27,7 +27,7 @@
     height:50px;
     line-height: 50px;
     color: #fff;
-    background: #000;
+    background: rgba(0,0,0,1);
     opacity: 0.4;
     left:0;
     position: absolute;

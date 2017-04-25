@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 50px auto;
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: all 1s;
+}
+#box p{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 150px;
+    -webkit-transform: rotate(135deg);
+    -webkit-transition: all 3s;
+}
+#box:hover{
+    margin: 500px auto;
+    border-radius: 250px;
+    -webkit-transform: rotate(1000deg);
+}
+#box p:hover{
+    -webkit-transform: rotate(500deg);
+}

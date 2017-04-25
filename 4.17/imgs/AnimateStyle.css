@@ -8,6 +8,7 @@
     height: 768px;
     position: absolute;
     -webkit-animation:mycss 10s linear 3s infinite;
+}
     /* 速度曲线:匀速         linear
              由慢到快再到慢 ease;
              由慢开始     ease-in
@@ -15,7 +16,6 @@
              由慢开始由慢结束 ease-in-out
     播放次数:n infinite;
     动画的方向:normal alternate倒序; */
-}
 @-webkit-keyframes mycss{
     0%{
         left:0;

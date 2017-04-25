@@ -17,14 +17,31 @@
     display: inline-block;
 }
 #box .loading1{
-    -webkit-animation: mycss1 1s linear ;
+    -webkit-animation: mycss1 1s linear infinite alternate;
 }
 #box .loading2{
-    -webkit-animation: mycss2 1s linear ;
+    -webkit-animation: mycss2 1s linear infinite alternate ;
 }
 #box .loading2{
     background: blue;
 }
 @-webkit-keyframes mycss1 {
-
+    0%{
+        -webkit-transform: scale(0.8)
+    }
+    100%{
+        -webkit-transform: scale(1.2);
+    }
 }
+@-webkit-keyframes mycss2 {
+    0%{
+        -webkit-transform: scale(1.2)
+    }
+    100%{
+        -webkit-transform: scale(0.8);
+    }
+}
+/*-webkit-transform:旋转：rotate(),rotate(x,y,z)
+                    倾斜：skew()
+                    缩放：scale()
+                    平移：translate() */

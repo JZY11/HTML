@@ -16,6 +16,7 @@
     background: red;
     display: inline-block;
 }
+/*定义animate属性*/
 #box .loading1{
     -webkit-animation: mycss1 1s linear infinite alternate;
 }
@@ -25,6 +26,7 @@
 #box .loading2{
     background: blue;
 }
+/*定义实现效果*/
 @-webkit-keyframes mycss1 {
     0%{
         -webkit-transform: scale(0.8)
@@ -33,6 +35,7 @@
         -webkit-transform: scale(1.2);
     }
 }
+/*定义实现效果*/
 @-webkit-keyframes mycss2 {
     0%{
         -webkit-transform: scale(1.2)

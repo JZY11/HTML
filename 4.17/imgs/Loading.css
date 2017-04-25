@@ -17,5 +17,14 @@
     display: inline-block;
 }
 #box .loading1{
+    -webkit-animation: mycss1 1s linear ;
+}
+#box .loading2{
+    -webkit-animation: mycss2 1s linear ;
+}
+#box .loading2{
     background: blue;
+}
+@-webkit-keyframes mycss1 {
+
 }

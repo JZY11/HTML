@@ -55,6 +55,7 @@
 .round2{
     width: 16px;
     height: 16px;
+    /*padding-left: 2px;*/
     border-radius: 50%;
     opacity: 0.8;
     margin: 0 auto;
@@ -62,6 +63,7 @@
 .round3{
     width: 10px;
     height: 10px;
+    /*padding-left: 5px;*/
     border-radius: 50%;
     opacity: 0.6;
     margin: 0 auto;
@@ -70,6 +72,7 @@
 .round4{
     width: 6px;
     height: 6px;
+    /*padding-left: 7px;*/
     border-radius: 50%;
     opacity: 0.4;
     margin: 0 auto;

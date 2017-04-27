@@ -34,7 +34,7 @@
     background-position: -126px 0;
 }
 
-/*没划之后的状态*/
+/*划之后的状态*/
 #box a:nth-child(1):hover{
     background-position: 0 -42px;
 }

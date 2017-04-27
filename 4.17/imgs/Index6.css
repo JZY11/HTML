@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    width: 800px;
+    height: 600px;
+    background: seagreen;
+    position: absolute;
+}
+#box .box1{
+    width: 80px;
+    height: 80px;
+    background: red;
+    position: relative;
+}

@@ -9,7 +9,12 @@
     background: blue;
     border: 1px solid #ccc;
     margin: 20px auto;
+    -webkit-transform: rotate(0deg);
+    /*-webkit-transform: skew(0deg);*/
+    /*-webkit-transform: scale(0.6);*/
+    /*-webkit-transform: translate(0,0);*/
     -webkit-transition: all 2s;
+    /*-webkit-transition: width 2s,height 2s,background 2s,border 2s,rotate 2s;*/
 }
 #box:hover{
     width: 400px;
@@ -17,4 +22,8 @@
     background:red ;
     border: 10px solid yellow;
     border-radius: 50%;
+    -webkit-transform: rotate(700deg);
+    /*-webkit-transform: skew(700deg);*/
+    /*-webkit-transform: scale(2.0);*/
+    /*-webkit-transform: translate(200px,200px);*/
 }

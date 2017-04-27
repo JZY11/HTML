@@ -6,35 +6,46 @@
 #box{
     width: 100px;
     height: 100px;
-    background: #ccc;
+    /*background: #ccc;*/
     margin: 20px auto;
     position: relative;
-    -webkit-animation: mycss 2s linear infinite;
+    -webkit-transform: rotate(0deg);
+    -webkit-transition: all 1s;
+    /*-webkit-animation: mycss 2s linear infinite;*/
 }
 #box>div{
     width: 20px;
-    height: 50px;
+    /*height: 50px;*/
     position: absolute;
     left: 40px;
     -webkit-transform-origin: center bottom;
 }
-.round_top{
-    background: red;
-}
-.round_bottom{
-    background: rebeccapurple;
-    -webkit-transform: rotateZ(90deg);
-}
-.round_left{
-    background:green;
-    -webkit-transform: rotateZ(180deg);
-}
-.round_right{
-    background:gold;
-    -webkit-transform: rotateZ(270deg);
-}
 .round_top div{
     background: blue;
+}
+.round_top{
+    /*background: red;*/
+}
+.round_bottom div{
+    background: #0bddcc;
+}
+.round_bottom{
+    /*background: rebeccapurple;*/
+    -webkit-transform: rotateZ(90deg);
+}
+.round_left div{
+    background: #15dd0b;
+}
+.round_left{
+    /*background:green;*/
+    -webkit-transform: rotateZ(180deg);
+}
+.round_right div{
+    background: red;
+}
+.round_right{
+    /*background:gold;*/
+    -webkit-transform: rotateZ(270deg);
 }
 .round1{
     width: 20px;
@@ -62,6 +73,9 @@
     border-radius: 50%;
     opacity: 0.4;
     margin: 0 auto;
+}
+#box:hover{
+    -webkit-transform: rotate(360deg);
 }
 /*@-webkit-keyframes mycss {*/
     /*0%{*/

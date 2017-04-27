@@ -15,6 +15,8 @@
     height: 50px;
     background: red;
     position: absolute;
+    left:225px;
+    top:225px;
     border: 1px solid #ccc;
     /*right: 250px;*/
     /*bottom: -250px;*/
@@ -25,14 +27,14 @@
     height: 50px;
     background: darkmagenta;
     position: absolute;
-    -webkit-animation: mycss2 1s linear 1S infinite alternate;
+    -webkit-animation: mycss2 4s linear 1S infinite normal;
 }
 #box .box3{
     width: 50px;
     height: 50px;
     background: green;
     position: absolute;
-    -webkit-animation: mycss3 2s linear infinite alternate;
+    -webkit-animation: mycss3 4s linear infinite normal;
 }
 @-webkit-keyframes mycss1 {
     0%{
@@ -45,30 +47,36 @@
 
 @-webkit-keyframes mycss2 {
     0%{
-        -webkit-transform: translateX(0px)
+        -webkit-transform: translate(0,0);
+    }
+    25%{
+        -webkit-transform: translate(400px,0);
     }
     50%{
-        -webkit-transform: translateX(100px);
+        -webkit-transform: translate(400px,400px);
+    }
+    75%{
+        -webkit-transform: translate(0,400px);
     }
     100%{
-        -webkit-transform: translateX(200px);
+        -webkit-transform: translate(0,0);
     }
 }
 
 @-webkit-keyframes mycss3 {
     0%{
-        -webkit-transform: translateY(0px)
+        -webkit-transform: translate(0,0)
     }
     25%{
-        -webkit-transform: translateY(80px);
+        -webkit-transform: translate(0,400px);
     }
     50%{
-        -webkit-transform: translateY(160px);
+        -webkit-transform: translate(400px,400px);
     }
     75%{
-        -webkit-transform: translateY(320px);
+        -webkit-transform: translate(400px,0);
     }
     100%{
-        -webkit-transform: translateY(640px);
+        -webkit-transform: translate(0,0);
     }
 }

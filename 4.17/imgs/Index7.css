@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    -webkit-transition: all 2s;
+}
+#box:hover{
+    width: 400px;
+    height: 400px;
+    background:red ;
+    border: 10px solid yellow;
+    border-radius: 50%;
+}

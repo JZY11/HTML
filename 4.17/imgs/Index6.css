@@ -6,15 +6,15 @@
 #box{
     width: 800px;
     height: 600px;
-    margin: 20px auto;
+   margin: 30px auto;
     background: seagreen;
-    position: absolute;
+    position: relative;
 }
 #box .box1{
     width: 80px;
     height: 80px;
     background: red;
-    position: relative;
+    position: absolute;
     -webkit-animation: mycss 4s linear 3s 3 normal;
 }
 @-webkit-keyframes mycss {

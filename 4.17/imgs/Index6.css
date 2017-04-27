@@ -14,4 +14,22 @@
     height: 80px;
     background: red;
     position: relative;
+    -webkit-animation: mycss 4s linear 3s 3 normal;
+}
+@-webkit-keyframes mycss {
+    0%{
+        -webkit-transform: translate(0,0);
+    }
+    25%{
+        -webkit-transform: translate(400px,0);
+    }
+    50%{
+        -webkit-transform: translate(400px,400px);
+    }
+    75%{
+        -webkit-transform: translate(0,400px);
+    }
+    100%{
+        -webkit-transform: translate(0,0);
+    }
 }

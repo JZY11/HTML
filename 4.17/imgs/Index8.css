@@ -8,4 +8,66 @@
     height: 100px;
     background: #ccc;
     margin: 20px auto;
+    position: relative;
+    -webkit-animation: mycss 2s linear infinite;
 }
+#box>div{
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    left: 40px;
+    -webkit-transform-origin: center bottom;
+}
+.round_top{
+    background: red;
+}
+.round_bottom{
+    background: rebeccapurple;
+    -webkit-transform: rotateZ(90deg);
+}
+.round_left{
+    background:green;
+    -webkit-transform: rotateZ(180deg);
+}
+.round_right{
+    background:gold;
+    -webkit-transform: rotateZ(270deg);
+}
+.round_top div{
+    background: blue;
+}
+.round1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.round2{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    opacity: 0.8;
+    margin: 0 auto;
+}
+.round3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.6;
+    margin: 0 auto;
+
+}
+.round4{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    opacity: 0.4;
+    margin: 0 auto;
+}
+/*@-webkit-keyframes mycss {*/
+    /*0%{*/
+        /*-webkit-transform: rotate(0deg);*/
+    /*}*/
+    /*100%{*/
+        /*-webkit-transform: rotate(360deg);*/
+    /*}*/
+/*}*/

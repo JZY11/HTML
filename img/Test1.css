@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#box{
+    width: 4100px;
+    height: 461px;
+    margin: 20px auto;
+    /*background: sienna;*/
+    position: absolute;
+    -webkit-animation: mycss 10s linear 1s infinite alternate;
+}
+@-webkit-keyframes mycss {
+    0%{
+        left: 0;
+    }
+    25%{
+        left: -820px;
+    }
+    50%{
+        left: -1640px;
+    }
+    75%{
+        left: -2460px;
+    }
+    100%{
+        left: -3280px;
+    }
+}
